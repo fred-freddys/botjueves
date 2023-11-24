@@ -16,17 +16,17 @@
 	    <template>Tenemos palitos de apio, ensalada o fruta picada</template>
 	</category>
 	<category>
+	    <pattern>* ENTRADAS</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	<category>
 	    <pattern>SOPA</pattern>
 	    <template>¿Quieres sopa del día o consomé?</template>
 	</category>
 	<category>
 	    <pattern>LA * ESTÁ FRÍA</pattern>
 	    <template>Una enorme disculpa, llevo su <star/> a calentar</template>
-	</category>
-	<category>
-	    <pattern>* ENTRADAS</pattern>
-	    <template>
-	        <srai>ENTRADAS</srai>
-	    </template>
 	</category>
 </aiml>
